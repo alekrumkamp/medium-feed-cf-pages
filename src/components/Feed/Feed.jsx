@@ -13,7 +13,10 @@ const Feed = () => {
         const rawFeed = await fetchFeed();
         setFeed(rawFeed
             .posts
-            .map(post => <ArticleCard post={post}/>))
+            .map(post => <ArticleCard post={post} />)
+            .reverse()
+        )
+            
     },[])
     return feed;
 }
