@@ -15,7 +15,7 @@
     "url": "git+https://github.com/alekrumkamp/medium-feed-cf-pages.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alekrumkamp/medium-feed-cf-pages/issues"
   },
